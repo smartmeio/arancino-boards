@@ -1,0 +1,56 @@
+{
+    "packages": [
+        {
+            "name": "smartme.io",
+            "email": "info@smartme.io",
+            "maintainer": "smartme.io",
+            "help": "",
+            "websiteURL":"https://smartme.io",
+            "tools": [],
+            "platforms": [ 
+                {
+                    "name": "Arancino Boards",
+                    "architecture": "samd",
+                    "version": "1.0.0",
+                    "category": "smartme.io",
+                    "url": "https://download.smartme.io/smartmeio-board-index/smartmeio-1.0.0.tar.bz2", TBD
+                    "archiveFileName": "smartmeio-1.0.0.tar.bz2", TBD
+                    "checksum": "SHA-256:98063fd43b1cdefb685ca1a98217fb722e7f0927c2a177e013dfcac874ac0ac8", TBD
+                    "size": "10469571", TBD
+                    "boards": [
+                        {
+                            "name": "Arancino"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "bossac",
+                            "version": "1.7.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino6-static"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS", 
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.2.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
