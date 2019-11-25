@@ -20,12 +20,11 @@
     "tool": "openocd",
     "file": "arancino/samd21_sam_ba_arancino_mignon.bin"
   },
-  "connectivity": [
-    "ethernet",
-    "wifi"
-  ],
   "debug": {
     "jlink_device": "ATSAMD21G18",
+    "onboard_tools": [
+      "cmsis-dap"
+    ],
     "openocd_chipname": "at91samd21g18",
     "openocd_target": "at91samdXX",
     "svd_path": "ATSAMD21G18A.svd"
