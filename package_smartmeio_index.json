@@ -28,27 +28,27 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
+              "packager": "smartme.IO",
               "name": "arm-none-eabi-gcc",
               "version": "4.8.3-2014q1"
             },
             {
-              "packager": "arduino",
+              "packager": "smartme.IO",
               "name": "bossac",
               "version": "1.7.0"
             },
             {
-              "packager": "arduino",
+              "packager": "smartme.IO",
               "name": "openocd",
               "version": "0.9.0-arduino6-static"
             },
             {
-              "packager": "arduino",
+              "packager": "smartme.IO",
               "name": "CMSIS",
               "version": "4.5.0"
             },
             {
-              "packager": "arduino",
+              "packager": "smartme.IO",
               "name": "CMSIS-Atmel",
               "version": "1.1.0"
             }
