@@ -14,10 +14,10 @@
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "http://arancino.cc/arancino-1.0.0.tar.bz2",
-          "archiveFileName": "arancino-1.0.0.tar.bz2",
-          "checksum": "SHA-256:c97f12e54f32d4522027c89a654a9054ddb72df200748b035db4747fff5628af",
-          "size": "926821",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform/1.0.0/smartmeio-arancino-1.0.0.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-1.0.0.tar.bz2",
+          "checksum": "SHA-256:b2482e9fb3838e3730f0cef271bd3a011604fa172df389eca3aedb12581dab37",
+          "size": "263379",
           "boards": [
             {
               "name": "Arancino"
