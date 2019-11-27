@@ -28,7 +28,7 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "smartme.IO",
+              "packager": "samd",
               "name": "arm-none-eabi-gcc",
               "version": "4.8.3-2014q1"
             },
