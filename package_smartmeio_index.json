@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform/1.0.0/smartmeio-arancino-1.0.0.tar.bz2",
           "archiveFileName": "smartmeio-arancino-1.0.0.tar.bz2",
-          "checksum": "SHA-256:656bf190b7e7e1bb378effda355d8958ca54c7e8ed7839cdce4c0a257bdbdd4e",
-          "size": "250576",
+          "checksum": "SHA-256:f414cff16c33db0c28dbd37d6112c6bd231ffdd4e7ac4d631d932574564d17ab",
+          "size": "250370",
           "boards": [
             {
               "name": "Arancino"
