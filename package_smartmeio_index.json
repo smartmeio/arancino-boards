@@ -40,7 +40,7 @@
             {
               "packager": "arduino",
               "name": "openocd",
-              "version": "0.10.0-arduino7-static"
+              "version": "0.10.0-arduino7"
             },
             {
               "packager": "arduino",
