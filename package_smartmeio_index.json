@@ -228,6 +228,52 @@
               "version": "1.2.0"
             }
           ]
+        },
+        {
+          "name": "Arancino Boards",
+          "architecture": "samd",
+          "version": "1.3.0-test.1",
+          "category": "Contributed",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-snapshot/1.3.0-test.1/smartmeio-arancino-1.3.0-test.1.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-1.3.0-test.1.tar.bz2",
+          "checksum": "SHA-256:ab9dfa4e81130fae5ee8d99a4bd347eb8f8c2eb51acbfcd1d8eec835620135b7",
+          "size": "1113364",
+          "boards": [
+            {"name": "Arancino"},
+            {"name": "Arancino Mignon"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "ArancinoOTA",
+              "version": "1.0.9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
         }
       ],
       "tools": [
@@ -312,7 +358,55 @@
                 "checksum": "SHA-256:895dc2de14ec6e0d521c5a68826f9aa8bb7c06f504fce1cb35682fa73ba77c3b"
               }
            ]
-         }
+        },
+        {
+          "name": "ArancinoOTA",
+          "version": "1.0.9",
+          "systems": [
+             {
+               "host": "i386-apple-darwin",
+               "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.9/ArancinoOTA-1.0.9-osx.tar.gz",
+               "archiveFileName": "ArancinoOTA-1.0.9-osx.tar.gz",
+               "size": "108520085",
+               "checksum": "SHA-256:bb8764ddb56f2b5b99423cba2a3b3d1b36c944c32e846174aa76a4c9e38a64ad"
+             },
+             {
+               "host": "i686-pc-linux-gnu",
+               "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.9/ArancinoOTA-1.0.9-linux-i386.tar.gz",
+               "archiveFileName": "ArancinoOTA-1.0.9-linux-i386.tar.gz",
+               "size": "104088150",
+               "checksum": "SHA-256:6ae272c2d523922f9b14e7311e6d3d14be7521b2f7c63d898ed8e9ee0f96ce3c"
+             },
+             {
+               "host": "x86_64-pc-linux-gnu",
+               "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.9/ArancinoOTA-1.0.9-linux-x86_64.tar.gz",
+               "archiveFileName": "ArancinoOTA-1.0.9-linux-x86_64.tar.gz",
+               "size": "106563192",
+               "checksum": "SHA-256:ca44c3dc6a9511f9c0936b1fb8a7d67f15c6bea3ca82a12628dbf5287856d419"
+             },
+             {
+               "host": "arm-linux-gnueabihf",
+               "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.9/ArancinoOTA-1.0.9-linux-armv7l.tar.gz",
+               "archiveFileName": "ArancinoOTA-1.0.9-linux-armv7l.tar.gz",
+               "size": "95873684",
+               "checksum": "SHA-256:4c5be957d990032bde3bf6a145eeb55640b7855d91b369b82e62e504de12ed35"
+             },
+             {
+               "host": "aarch64-linux-gnu",
+               "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.9/ArancinoOTA-1.0.9-linux-arm64.tar.gz",
+               "archiveFileName": "ArancinoOTA-1.0.9-linux-arm64.tar.gz",
+               "size": "111684444",
+               "checksum": "SHA-256:3b6a30db1b29e156319d3066b907481c484cc1eb76e7a0b285360e020ff6fe75"
+             },
+             {
+               "host": "i686-mingw32",
+               "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.9/ArancinoOTA-1.0.9-x86_64-w64-mingw32.zip",
+               "archiveFileName": "ArancinoOTA-1.0.9-x86_64-w64-mingw32.zip",
+               "size": "121967113",
+               "checksum": "SHA-256:d61ef2ce981c123110afdcfac9423bb4d7cd4c4f409a85611342d74eb36d1e92"
+             }
+          ]
+        }
       ]
     }
   ]
