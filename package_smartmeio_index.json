@@ -460,7 +460,7 @@
           ]
         },
         {
-          "name": "Arancino NRF52 boards",
+          "name": "Arancino nRF52 boards",
           "architecture": "nrf52",
           "version": "1.0.0-test.1",
           "category": "Contributed",
