@@ -462,12 +462,12 @@
         {
           "name": "Arancino Volante boards",
           "architecture": "nrf52",
-          "version": "1.0.0",
+          "version": "1.0.0-test.1",
           "category": "Contributed",
-          "url": "http://127.0.0.1:8888/arduino-nrf52-arancino.tar.bz2",
-          "archiveFileName": "arduino-nrf52-arancino.tar.bz2",
-          "checksum": "SHA-256:82327d67c4ca2d735e405e79c0aabc20b883777f95c2845e91fd9cc8483b1217",
-          "size": "16310260",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.0.0-test.1/smartmeio-arancino-nrf52-1.0.0-test.1.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-nrf52-1.0.0-test.1.tar.bz2",
+          "checksum": "SHA-256:d499f68a5e66dfb3a4581eb4b3c83f7c19ae51bb8885a365cb71d4c02ae4431c",
+          "size": "16276109",
           "boards": [
             {
               "name": "Arancino Volante"
