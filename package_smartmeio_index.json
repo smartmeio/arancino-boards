@@ -458,6 +458,33 @@
               "version": "1.2.0"
             }
           ]
+        },
+        {
+          "name": "Arancino Volante boards",
+          "architecture": "nrf52",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "http://127.0.0.1:8888/arduino-nrf52-arancino.tar.bz2",
+          "archiveFileName": "arduino-nrf52-arancino.tar.bz2",
+          "checksum": "SHA-256:82327d67c4ca2d735e405e79c0aabc20b883777f95c2845e91fd9cc8483b1217",
+          "size": "16310260",
+          "boards": [
+            {
+              "name": "Arancino Volante"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
         }
       ],
       "tools": [
@@ -685,6 +712,74 @@
                 "size": "121928674",
                 "checksum": "SHA-256:7dad1f7bf557cf66b2b26fe9aab596f0b4336b551721bac491b5b40b5ce3492a"
               }
+          ]
+        },
+        {
+          "name": "gcc-arm-none-eabi",
+          "version": "5_2-2015q4",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+              "size": "96372129",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+              "size": "92811866",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+              "size": "92811866",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+              "size": "102981732",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "nrfjprog",
+          "version": "9.4.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
+              "size": "362222",
+              "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
+              "size": "177428",
+              "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
+              "size": "190020",
+              "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:8352392ae0272173e1508d1218f51671",
+              "size": "851576",
+              "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
+            }
           ]
         }
       ]
