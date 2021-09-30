@@ -475,9 +475,9 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "smartme.IO",
-              "name": "gcc-arm-none-eabi",
-              "version": "5_2-2015q4"
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
             },
             {
               "packager": "smartme.IO",
@@ -507,9 +507,9 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "smartme.IO",
-              "name": "gcc-arm-none-eabi",
-              "version": "5_2-2015q4"
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
             },
             {
               "packager": "smartme.IO",
