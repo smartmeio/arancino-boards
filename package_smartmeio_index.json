@@ -493,8 +493,8 @@
           "category": "Contributed",
           "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.0.0-test.2/smartmeio-arancino-nrf52-1.0.0-test.2.tar.bz2",
           "archiveFileName": "smartmeio-arancino-nrf52-1.0.0-test.2.tar.bz2",
-          "checksum": "SHA-256:054533c1a653b295007d3c95ca1e2aa83fa6ae91652a90fa784e2715d0575ecf",
-          "size": "16270238",
+          "checksum": "SHA-256:13fe80cb2f789e0d71fdbc33bf014c2c339030387e18c7a2d7e69ac4a8a03498",
+          "size": "16269929",
           "boards": [
             {
               "name": "Arancino Volante"
