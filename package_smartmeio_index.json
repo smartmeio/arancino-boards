@@ -283,7 +283,7 @@
           "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform/1.2.2/smartmeio-arancino-1.2.2.tar.bz2",
           "archiveFileName": "smartmeio-arancino-1.2.2.tar.bz2",
           "checksum": "SHA-256:4d1c6f180d4f76403f368f9ea556eb3dc9a665a20a43b54a159b771f741ac83f",
-          "size": "1110665",
+          "size": "1109426",
           "boards": [
             {"name": "Arancino"},
             {"name": "Arancino Mignon"}
