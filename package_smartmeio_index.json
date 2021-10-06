@@ -568,6 +568,38 @@
               "version": "5.7.0"
             }
           ]
+        },
+        {
+          "name": "Arancino nRF52 boards",
+          "architecture": "nrf52",
+          "version": "1.0.0-test.3",
+          "category": "Contributed",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.0.0-test.3/smartmeio-arancino-nrf52-1.0.0-test.3.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-nrf52-1.0.0-test.3.tar.bz2",
+          "checksum": "SHA-256:6d6a492bc527b0111649207250bb178c753b5df377dc75b4f1cac5274bce8300",
+          "size": "16448039",
+          "boards": [
+            {
+              "name": "Arancino Volante"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
         }
       ],
       "tools": [
