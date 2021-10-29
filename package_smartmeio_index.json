@@ -681,12 +681,12 @@
         },
         {
           "name": "Arancino RP2040 Boards",
-          "url": "https://download.smartme.io:443/artifactory/framework-arduino-rp2040-arancino-snapshot/1.0.0-test.4/framework-arduino-rp2040-arancino-1.0.0-test.4.tar.bz2",
-          "version": "1.0.0-test.4",
+          "url": "https://download.smartme.io:443/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.0.0-test.5/smartmeio-arancino-rp2040-1.0.0-test.5.tar.bz2",
+          "version": "1.0.0-test.5",
           "architecture": "rp2040",
-          "archiveFileName": "framework-arduino-rp2040-arancino-1.0.0-test.4.tar.bz2",
-          "size": "9272625",
-          "checksum": "SHA-256:7790f6318caadcb36a387825f196a1fb9328fa652ea8b5698f48b8450200eff7",
+          "archiveFileName": "framework-arduino-rp2040-arancino-1.0.0-test.5.tar.bz2",
+          "size": "9289505",
+          "checksum": "SHA-256:37c0a0c8c3dec60420080ca8b6394008e227d96c03850c0e151fa6503bbdfc9e",
           "boards": [
             {
               "name": "Arancino Pico"
