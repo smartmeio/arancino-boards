@@ -510,7 +510,7 @@
           "architecture": "samd",
           "version": "1.3.0-rc.1",
           "category": "Contributed",
-          "url": "https://download.smartme.io:443/artifactory/framework-arduino-samd-arancino/1.3.0-rc.1/framework-arduino-samd-arancino-1.3.0-rc.1.tar.bz2",
+          "url": "http://download.smartme.io/artifactory/framework-arduino-samd-arancino/1.3.0-rc.1/framework-arduino-samd-arancino-1.3.0-rc.1.tar.bz2",
           "archiveFileName": "framework-arduino-samd-arancino-1.3.0-rc.1.tar.bz2",
           "checksum": "SHA-256:277bb06ebaba93343cf3baff14394671ff62063379ed5ba78a04beaa9f4384da",
           "size": "1778400",
@@ -620,7 +620,7 @@
           "architecture": "nrf52",
           "version": "1.1.0-test.1",
           "category": "Contributed",
-          "url": "https://download.smartme.io:443/artifactory/framework-arduino-nrf52-arancino-snapshot/1.1.0-test.1/framework-arduino-nrf52-arancino-1.1.0-test.1.tar.bz2",
+          "url": "http://download.smartme.io/artifactory/framework-arduino-nrf52-arancino-snapshot/1.1.0-test.1/framework-arduino-nrf52-arancino-1.1.0-test.1.tar.bz2",
           "archiveFileName": "framework-arduino-nrf52-arancino-1.1.0-test.1.tar.bz2",
           "checksum": "SHA-256:f4afbb706c2f356360aafd14983e5fa7bd6ace11e38939f062b97de53edc6443",
           "size": "16973754",
@@ -681,7 +681,7 @@
         },
         {
           "name": "Arancino RP2040 Boards",
-          "url": "https://download.smartme.io:443/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.0.0-test.5/smartmeio-arancino-rp2040-1.0.0-test.5.tar.bz2",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.0.0-test.5/smartmeio-arancino-rp2040-1.0.0-test.5.tar.bz2",
           "version": "1.0.0-test.5",
           "architecture": "rp2040",
           "archiveFileName": "framework-arduino-rp2040-arancino-1.0.0-test.5.tar.bz2",
@@ -1012,7 +1012,6 @@
             }
           ]
         },
-        
         {
           "name": "ArancinoOTA",
           "version": "1.0.3",
