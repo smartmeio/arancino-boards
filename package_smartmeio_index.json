@@ -776,6 +776,48 @@
           "help": {
             "online": ""
           }
+        },
+        {
+          "name": "Arancino V boards",
+          "architecture": "stm32",
+          "version": "2.0.1-test.1",
+          "category": "Contributed",
+          "url": "http://download.smartme.io:80/artifactory/framework-arduino-stm32-arancino-snapshot/2.0.1-test.1/framework-arduino-stm32-arancino-2.0.1-test.1.tar.bz2",
+          "archiveFileName": "framework-arduino-stm32-arancino-2.0.1-test.1.tar.bz2",
+          "checksum": "SHA-256:4c7cc2a60222cf5e84e420c8ddb9413e69d74d2c571800e3db973560396be53e",
+          "size": "38089827",
+          "boards": [
+            {
+              "name": "Arancino V12"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "9.3.1-1.3"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "STM32Tools",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "arduinoSTM32load",
+              "version": "2.3.0"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "dfu-util",
+              "version": "0.9.0-arancino5"
+            }
+          ]
         }
       ],
       "tools": [
@@ -1421,6 +1463,198 @@
               "archiveFileName": "ARM.CMSIS.5.7.0.zip",
               "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
               "size": "117164633"
+            }
+          ]
+        },
+        {
+          "name": "xpack-arm-none-eabi-gcc",
+          "version": "9.3.1-1.3",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "checksum": "SHA-256:0e6720296f291141cd757d90e6bf60867a1232de9abc52b0cde28af12eeb94f2",
+              "size": "147111321"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "checksum": "SHA-256:9a9e96b9ac3634d7632d35aa0d8138f8468d4f3f4d752374a95420ff7c8e4476",
+              "size": "150584175"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "checksum": "SHA-256:7432cfff045dc421d2ba177c3777ec1e82d4febe5f5f51fb2e90ff07d27cd466",
+              "size": "148593506"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "checksum": "SHA-256:f22f0d49c27f844dcfe629a6a33878d767b6945acd7508d9578b20b17b106f4c",
+              "size": "148641073"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "checksum": "SHA-256:9045d261b000d921887fc801427542eed2df1616f63a2969a2640f8be2593686",
+              "size": "151422620"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "checksum": "SHA-256:1950c7b0b4e35bacec32450158ec192ac469189a5fb27c2fd7c01e9603e50e64",
+              "size": "154309058"
+            }
+          ]
+        },
+        {
+          "name": "STM32Tools",
+          "version": "2.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-windows.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-windows.tar.bz2",
+              "checksum": "SHA-256:6316ffd1667344952bc5e16ff60783f9b4211d1eb54fc0d0c28e836b1490b717",
+              "size": "2486087"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-mac.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-mac.tar.bz2",
+              "checksum": "SHA-256:2612be87206d2ba6f7cf797c194dbc070139defc884b881c1957a8d148c2114c",
+              "size": "486398"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
+              "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
+              "size": "479795"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
+              "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
+              "size": "479795"
+            }
+          ]
+        },
+        {
+          "name": "arduinoSTM32load",
+          "version": "2.3.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-darwin_amd64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-darwin_amd64.tar.bz2",
+              "size": "1378555",
+              "checksum": "SHA-256:8e5f5cfb6f3108c075bdd62cfff13b45ca97fb9ea32086f7632531d69a610652"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_arm.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_arm.tar.bz2",
+              "size": "1334474",
+              "checksum": "SHA-256:ac5141d351f21fc90b47b56299bd3b9d51bb0b22e69adc36ea72f5921880e187"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_arm64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_arm64.tar.bz2",
+              "size": "1317527",
+              "checksum": "SHA-256:c35b27ab525cec05a67b865f5d40916db1809e069c47d72a52a95e327bbf1050"
+            },
+            {
+              "host": "mips-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_mips.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_mips.tar.bz2",
+              "size": "1277674",
+              "checksum": "SHA-256:5108141e7765b7ad3120bb0b6bd4302492fe67982deb1f48261fcf5a8fbaa9ba"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_amd64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_amd64.tar.bz2",
+              "size": "1402242",
+              "checksum": "SHA-256:1690dac823a7823eada7c2a0679f60825f03321350266d8bc7ad1bf33bb94bb2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_386.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_386.tar.bz2",
+              "size": "1395880",
+              "checksum": "SHA-256:2cfaecaa88b1e8d477819a6096eb52f44efa987b0d0777ae76b89ba37345384a"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-windows_386.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-windows_386.tar.bz2",
+              "size": "1439595",
+              "checksum": "SHA-256:f2347a740ac5abdfd5bfa192699aa43aed13f0f70e8e2470b80fe818a1c772ac"
+            },
+            {
+              "host": "i686-w64-mingw32",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-windows_amd64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-windows_amd64.tar.bz2",
+              "size": "1445832",
+              "checksum": "SHA-256:b171713bc89db9e5e4979d8561978d72ca1741c67f9cd63832c6f21509c34732"
+            }
+          ]
+        },
+        {
+          "name": "dfu-util",
+          "version": "0.9.0-arancino5",
+          "systems": [
+            {
+              "archiveFileName": "dfu-util-0.9.0-arancino5-osx.tar.bz2",
+              "checksum": "SHA-256:36793d63e2efbe36bdc156af916c248aa72482ce9fdc3a9063679dc373ba60ff",
+              "host": "i386-apple-darwin11",
+              "size": "72465",
+              "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-osx.tar.bz2"
+            },
+            {
+              "archiveFileName": "dfu-util-0.9.0-arancino5-arm.tar.bz2",
+              "checksum": "SHA-256:79394a2a2566af8e5d4ed6f6ea16ddd43ef09dc89febabe21ab7b6bea898d09c",
+              "host": "arm-linux-gnueabihf",
+              "size": "224644",
+              "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-arm.tar.bz2"
+            },
+            {
+              "archiveFileName": "dfu-util-0.9.0-arancino5-arm64.tar.bz2",
+              "checksum": "SHA-256:728d0135acb93c5bc70ff84ae9b7fe983d1c9e27464b946fcbde562b33f1250f",
+              "host": "aarch64-linux-gnu",
+              "size": "231819",
+              "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-arm64.tar.bz2"
+            },
+            {
+              "archiveFileName": "dfu-util-0.9.0-arancino5-linux64.tar.bz2",
+              "checksum": "SHA-256:de1cb7a155455a32221f76c456caf17bf77ca7da8f9af03480fb935aa97d77a9",
+              "host": "x86_64-linux-gnu",
+              "size": "71707",
+              "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-linux64.tar.bz2"
+            },
+            {
+              "archiveFileName": "dfu-util-0.9.0-arancino5-linux32.tar.bz2",
+              "checksum": "SHA-256:4f9f9b8f6cd2e9fc83ca2e330bcb33fae2da3ca6c1fd7b81f2c65a03220aff7c",
+              "host": "i686-linux-gnu",
+              "size": "71716",
+              "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-linux32.tar.bz2"
+            },
+            {
+              "archiveFileName": "dfu-util-0.9.0-arancino5-windows.tar.bz2",
+              "checksum": "SHA-256:9238a21dc2786227a1372e759fd584210b56a0eb429f910ac92fdb94d6c73886",
+              "host": "i686-mingw32",
+              "size": "142235",
+              "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-windows.tar.bz2"
             }
           ]
         }
