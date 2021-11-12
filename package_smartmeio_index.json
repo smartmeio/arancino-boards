@@ -618,12 +618,12 @@
         {
           "name": "Arancino nRF52 boards",
           "architecture": "nrf52",
-          "version": "1.1.0-test.1",
+          "version": "1.0.0-test.3",
           "category": "Contributed",
-          "url": "http://download.smartme.io/artifactory/framework-arduino-nrf52-arancino-snapshot/1.1.0-test.1/framework-arduino-nrf52-arancino-1.1.0-test.1.tar.bz2",
-          "archiveFileName": "framework-arduino-nrf52-arancino-1.1.0-test.1.tar.bz2",
-          "checksum": "SHA-256:f4afbb706c2f356360aafd14983e5fa7bd6ace11e38939f062b97de53edc6443",
-          "size": "16973754",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.0.0-test.3/smartmeio-arancino-nrf52-1.0.0-test.3.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-nrf52-1.0.0-test.3.tar.bz2",
+          "checksum": "SHA-256:6d6a492bc527b0111649207250bb178c753b5df377dc75b4f1cac5274bce8300",
+          "size": "16448039",
           "boards": [
             {
               "name": "Arancino Volante"
@@ -650,12 +650,12 @@
         {
           "name": "Arancino nRF52 boards",
           "architecture": "nrf52",
-          "version": "1.0.0-test.3",
+          "version": "1.1.0-test.1",
           "category": "Contributed",
-          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.0.0-test.3/smartmeio-arancino-nrf52-1.0.0-test.3.tar.bz2",
-          "archiveFileName": "smartmeio-arancino-nrf52-1.0.0-test.3.tar.bz2",
-          "checksum": "SHA-256:6d6a492bc527b0111649207250bb178c753b5df377dc75b4f1cac5274bce8300",
-          "size": "16448039",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.1.0-test.1/smartmeio-arancino-nrf52-1.1.0-test.1.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-nrf52-1.1.0-test.1.tar.bz2",
+          "checksum": "SHA-256:afaa497be62cd87c58343571e06521916da8b3eb94cde2ebd2c0e16a5acc7442",
+          "size": "16964011",
           "boards": [
             {
               "name": "Arancino Volante"
