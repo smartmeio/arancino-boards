@@ -969,7 +969,7 @@
           "size": "38595064",
           "boards": [
             {
-              "name": "Arancino V12"
+              "name": "Arancino V"
             }
           ],
           "toolsDependencies": [
@@ -1011,7 +1011,7 @@
           "size": "38629274",
           "boards": [
             {
-              "name": "Arancino V12"
+              "name": "Arancino V"
             }
           ],
           "toolsDependencies": [
