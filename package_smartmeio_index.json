@@ -725,6 +725,43 @@
             }
           ]
         },
+				{
+          "name": "Arancino nRF52 Boards",
+          "architecture": "nrf52",
+          "version": "1.1.0-test.2",
+          "category": "Contributed",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.1.0-test.2/smartmeio-arancino-nrf52-1.1.0-test.2.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-nrf52-1.1.0-test.2.tar.bz2",
+          "checksum": "SHA-256:e724f195546a9bfe8b1277f8b917195aefc8e4b726300e5a11f381ab7570d8d3",
+          "size": "2554997",
+          "boards": [
+            {
+              "name": "Arancino Volante"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+						{
+              "packager": "smartme.IO",
+              "name": "nrfutil",
+              "version": "0.5.3.post17"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
         {
           "name": "Arancino RP2040 Boards",
           "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.0.0-test.5/smartmeio-arancino-rp2040-1.0.0-test.5.tar.bz2",
@@ -1854,6 +1891,54 @@
               "host": "i686-mingw32",
               "size": "142235",
               "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-windows.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "nrfutil",
+          "version": "0.5.3.post17",
+          "systems": [
+            {
+              "archiveFileName": "adafruit-nrfutil-0.5.3.post17-darwin_amd64.tar.bz2",
+              "checksum": "SHA-256:d88eefed3a3b886c71c5a3e8c13165e797af933b42babd30de81280e8e1ee41a",
+              "host": "i386-apple-darwin11",
+              "size": "8386248",
+              "url": "http://download.smartme.io/artifactory/adafruit-nrfutil/0.5.3.post17/adafruit-nrfutil-0.5.3.post17-darwin_amd64.tar.bz2"
+            },
+            {
+              "archiveFileName": "adafruit-nrfutil-0.5.3.post17-linux_arm.tar.bz2",
+              "checksum": "SHA-256:549a7cf2b403e58a298ec545a31cb63424f434ede36f5b554abbf69046c4252d",
+              "host": "arm-linux-gnueabihf",
+              "size": "5574709",
+              "url": "http://download.smartme.io/artifactory/adafruit-nrfutil/0.5.3.post17/adafruit-nrfutil-0.5.3.post17-linux_arm.tar.bz2"
+            },
+            {
+              "archiveFileName": "adafruit-nrfutil-0.5.3.post17-linux_arm64.tar.bz2",
+              "checksum": "SHA-256:0b1a36d29919691d260c81bbfb31999bac9a45c9499f774a9e63e45119624842",
+              "host": "aarch64-linux-gnu",
+              "size": "5579916",
+              "url": "http://download.smartme.io/artifactory/adafruit-nrfutil/0.5.3.post17/adafruit-nrfutil-0.5.3.post17-linux_arm64.tar.bz2"
+            },
+            {
+              "archiveFileName": "adafruit-nrfutil-0.5.3.post17-linux_amd64.tar.bz2",
+              "checksum": "SHA-256:131cd2a268d49094a18c60d2c4dd92975ad60bc81d89437a3992c8091f8d533a",
+              "host": "x86_64-linux-gnu",
+              "size": "6204234",
+              "url": "http://download.smartme.io/artifactory/adafruit-nrfutil/0.5.3.post17/adafruit-nrfutil-0.5.3.post17-linux_amd64.tar.bz2"
+            },
+            {
+              "archiveFileName": "adafruit-nrfutil-0.5.3.post17-linux_386.tar.bz2",
+              "checksum": "SHA-256:89ac06ac50090b2d0d79d0e7968445ece7f29a569793d75fed77305f24eefadb",
+              "host": "i686-linux-gnu",
+              "size": "6140148",
+              "url": "http://download.smartme.io/artifactory/adafruit-nrfutil/0.5.3.post17/adafruit-nrfutil-0.5.3.post17-linux_386.tar.bz2"
+            },
+            {
+              "archiveFileName": "adafruit-nrfutil-0.5.3.post17-windows_amd64.tar.bz2",
+              "checksum": "SHA-256:7e0b54553b84f4c6daf4acdd9b05618e042281b1a5729324d37f8c4d0e686eb3",
+              "host": "i686-mingw32",
+              "size": "7696402",
+              "url": "http://download.smartme.io/artifactory/adafruit-nrfutil/0.5.3.post17/adafruit-nrfutil-0.5.3.post17-windows_amd64.tar.bz2"
             }
           ]
         }
