@@ -1346,12 +1346,12 @@
         {
           "name": "Arancino STM32 Boards",
           "architecture": "stm32",
-          "version": "2.0.1-test.8",
+          "version": "1.0.0-test.8",
           "category": "Contributed",
-          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/2.0.1-test.8/smartmeio-arancino-stm32-2.0.1-test.8.tar.bz2",
-          "archiveFileName": "smartmeio-arancino-stm32-2.0.1-test.8.tar.bz2",
-          "checksum": "SHA-256:63ebf100fbde4a118bfc9feabc1eb949fddb4849299d72218f38fc2bbbff65c7",
-          "size": "38595064",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.8/smartmeio-arancino-stm32-1.0.0-test.8.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.8.tar.bz2",
+          "checksum": "SHA-256:221d4d9a51d766b63f136857d1b91c7b6c7504ef0b5130a46a54545382f47afd",
+          "size": "38595252",
           "boards": [
             {
               "name": "Arancino V"
