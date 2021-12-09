@@ -1259,6 +1259,48 @@
 	     }
 	   ]
         },
+	 {
+	   "name": "Arancino STM32 Boards",
+	   "architecture": "stm32",
+	   "version": "1.0.0-test.6",
+	   "category": "Contributed",
+	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.6/smartmeio-arancino-stm32-1.0.0-test.6.tar.bz2",
+	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.6.tar.bz2",
+	   "checksum": "SHA-256:bb04a2ff3e17cfce7101efafb07bb499b5a47ae963e69f2d4ce921d6017489fd",
+	   "size": "38583887",
+	   "boards": [
+	     {
+	       "name": "Arancino V"
+	     }
+	   ],
+	   "toolsDependencies": [
+	     {
+	       "packager": "smartme.IO",
+	       "name": "xpack-arm-none-eabi-gcc",
+	       "version": "9.3.1-1.3"
+	     },
+	     {
+	       "packager": "smartme.IO",
+	       "name": "STM32Tools",
+	       "version": "2.0.0"
+	     },
+	     {
+	       "packager": "smartme.IO",
+	       "name": "CMSIS",
+	       "version": "5.7.0"
+	     },
+	     {
+	       "packager": "smartme.IO",
+	       "name": "arduinoSTM32load",
+	       "version": "2.3.0"
+	     },
+	     {
+	       "packager": "smartme.IO",
+	       "name": "dfu-util",
+	       "version": "0.9.0-arancino5"
+	     }
+	   ]
+        },
         {
           "name": "Arancino STM32 Boards",
           "architecture": "stm32",
