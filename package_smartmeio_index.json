@@ -1500,6 +1500,43 @@
               "version": "3.0.0-gnu12-dc7f933"
             }
           ]
+        },
+        {
+          "name": "Arancino ESP32 Boards",
+          "architecture": "esp32",
+          "version": "1.0.0-test.2",
+          "category": "Contributed",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-esp32-snapshot/1.0.0-test.2/smartmeio-arancino-esp32-1.0.0-test.2.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-esp32-1.0.0-test.2.tar.bz2",
+          "checksum": "SHA-256:7dbb3bfc635eb3ecc42a5aeef0e299260c6de2c1285277f9cfddac91fb294af3",
+          "size": "149916307",
+          "boards": [
+            {
+              "name": "Dfr Adapter"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "esptool_py",
+              "version": "3.1.0"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "smartme.IO",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            }
+          ]
         }
       ],
       "tools": [
