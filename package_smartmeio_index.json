@@ -1117,6 +1117,55 @@
         },
         {
           "name": "Arancino RP2040 Boards",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.1.0-test.1/smartmeio-arancino-rp2040-1.1.0-test.1.tar.bz2",
+          "version": "1.1.0-test.1",
+          "architecture": "rp2040",
+          "archiveFileName": "smartmeio-arancino-rp2040-1.1.0-test.1.tar.bz2",
+          "size": "14844701",
+          "checksum": "SHA-256:a28bc3fe7475aceb45f81d92589c82c303e84ca36e3f5edad94691239d7bb952",
+          "boards": [
+            {
+              "name": "Arancino Pico"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "version": "1.3.1-a-7855b0c",
+              "name": "pqt-gcc"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.3.1-a-7855b0c",
+              "name": "pqt-mklittlefs"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.3.1-a-7855b0c",
+              "name": "pqt-elf2uf2"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.3.1-a-7855b0c",
+              "name": "pqt-pioasm"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.0.1-base-3a57aed",
+              "name": "pqt-python3"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.3.1-a-7855b0c",
+              "name": "pqt-openocd"
+            }
+          ],
+          "help": {
+            "online": ""
+          }
+        },
+        {
+          "name": "Arancino RP2040 Boards",
           "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040/1.0.0/smartmeio-arancino-rp2040-1.0.0.tar.bz2",
           "version": "1.0.0",
           "architecture": "rp2040",
