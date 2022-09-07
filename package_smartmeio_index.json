@@ -817,7 +817,7 @@
             }
           ]
         },
-	      {
+        {
           "name": "Arancino nRF52 Boards",
           "architecture": "nrf52",
           "version": "1.0.0-test.5",
@@ -1432,6 +1432,55 @@
           }
         },
         {
+          "name": "Arancino RP2040 Boards",
+          "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.2.0-test.1/smartmeio-arancino-rp2040-1.2.0-test.1.tar.bz2",
+          "version": "1.2.0-test.1",
+          "architecture": "rp2040",
+          "archiveFileName": "smartmeio-arancino-rp2040-1.2.0-test.1.tar.bz2",
+          "size": "12222265",
+          "checksum": "SHA-256:055a7b64ff673fc0854a450f848f98843dc575ef11f0b696d13fac5bf19c0718",
+          "boards": [
+            {
+              "name": "Arancino Pico"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "smartme.IO",
+              "version": "1.4.0-c-0196c06",
+              "name": "pqt-gcc"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.4.0-c-0196c06",
+              "name": "pqt-mklittlefs"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.4.0-c-0196c06",
+              "name": "pqt-elf2uf2"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.4.0-c-0196c06",
+              "name": "pqt-pioasm"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.0.1-base-3a57aed",
+              "name": "pqt-python3"
+            },
+            {
+              "packager": "smartme.IO",
+              "version": "1.4.0-c-0196c06",
+              "name": "pqt-openocd"
+            }
+          ],
+          "help": {
+            "online": ""
+          }
+        },
+        {
           "name": "Arancino STM32 Boards",
           "architecture": "stm32",
           "version": "1.0.0",
@@ -1472,8 +1521,8 @@
               "version": "0.9.0-arancino5"
             }
           ]
-	 },
-	 {
+	},
+	{
           "name": "Arancino STM32 Boards",
           "architecture": "stm32",
           "version": "1.0.0-test.1",
@@ -1514,8 +1563,8 @@
               "version": "0.9.0-arancino5"
             }
           ]
-	 },
-	 {
+	},
+	{
           "name": "Arancino STM32 Boards",
           "architecture": "stm32",
           "version": "1.0.0-test.2",
@@ -1556,8 +1605,8 @@
               "version": "0.9.0-arancino5"
             }
           ]
-	 },
-	 {
+	},
+	{
           "name": "Arancino STM32 Boards",
           "architecture": "stm32",
           "version": "1.0.0-test.3",
@@ -1598,174 +1647,174 @@
               "version": "0.9.0-arancino5"
             }
           ]
-	 },
-	 {
-	   "name": "Arancino STM32 Boards",
-	   "architecture": "stm32",
-	   "version": "1.0.0-test.4",
-	   "category": "Contributed",
-	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.4/smartmeio-arancino-stm32-1.0.0-test.4.tar.bz2",
-	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.4.tar.bz2",
-	   "checksum": "SHA-256:48757632092f8eb627752f01a301b1ba7d0c9d64d8ab57319eaec8453cc116b4",
-	   "size": "38576886",
-	   "boards": [
-	     {
-	       "name": "Arancino V"
-	     }
-	   ],
-	   "toolsDependencies": [
-	     {
-	       "packager": "smartme.IO",
-	       "name": "xpack-arm-none-eabi-gcc",
-	       "version": "9.3.1-1.3"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "STM32Tools",
-	       "version": "2.0.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "CMSIS",
-	       "version": "5.7.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "arduinoSTM32load",
-	       "version": "2.3.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "dfu-util",
-	       "version": "0.9.0-arancino5"
-	     }
-	   ]
-        },
-	 {
-	   "name": "Arancino STM32 Boards",
-	   "architecture": "stm32",
-	   "version": "1.0.0-test.5",
-	   "category": "Contributed",
-	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.5/smartmeio-arancino-stm32-1.0.0-test.5.tar.bz2",
-	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.5.tar.bz2",
-	   "checksum": "SHA-256:7d1135f3ed9f3d9aaca57a03329ab1eef40d3942fc41e470d0a51413d92aa16e",
-	   "size": "38581720",
-	   "boards": [
-	     {
-	       "name": "Arancino V"
-	     }
-	   ],
-	   "toolsDependencies": [
-	     {
-	       "packager": "smartme.IO",
-	       "name": "xpack-arm-none-eabi-gcc",
-	       "version": "9.3.1-1.3"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "STM32Tools",
-	       "version": "2.0.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "CMSIS",
-	       "version": "5.7.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "arduinoSTM32load",
-	       "version": "2.3.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "dfu-util",
-	       "version": "0.9.0-arancino5"
-	     }
-	   ]
-        },
-	 {
-	   "name": "Arancino STM32 Boards",
-	   "architecture": "stm32",
-	   "version": "1.0.0-test.6",
-	   "category": "Contributed",
-	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.6/smartmeio-arancino-stm32-1.0.0-test.6.tar.bz2",
-	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.6.tar.bz2",
-	   "checksum": "SHA-256:bb04a2ff3e17cfce7101efafb07bb499b5a47ae963e69f2d4ce921d6017489fd",
-	   "size": "38583887",
-	   "boards": [
-	     {
-	       "name": "Arancino V"
-	     }
-	   ],
-	   "toolsDependencies": [
-	     {
-	       "packager": "smartme.IO",
-	       "name": "xpack-arm-none-eabi-gcc",
-	       "version": "9.3.1-1.3"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "STM32Tools",
-	       "version": "2.0.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "CMSIS",
-	       "version": "5.7.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "arduinoSTM32load",
-	       "version": "2.3.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "dfu-util",
-	       "version": "0.9.0-arancino5"
-	     }
-	   ]
-        },
-	 {
-	   "name": "Arancino STM32 Boards",
-	   "architecture": "stm32",
-	   "version": "1.0.0-test.7",
-	   "category": "Contributed",
-	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.7/smartmeio-arancino-stm32-1.0.0-test.7.tar.bz2",
-	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.7.tar.bz2",
-	   "checksum": "SHA-256:1e70bc3f53c0070e73278c79e5d00a568be74ad02a1a701bbe5c3e28f4aa7fcc",
-	   "size": "38582110",
-	   "boards": [
-	     {
-	       "name": "Arancino V"
-	     }
-	   ],
-	   "toolsDependencies": [
-	     {
-	       "packager": "smartme.IO",
-	       "name": "xpack-arm-none-eabi-gcc",
-	       "version": "9.3.1-1.3"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "STM32Tools",
-	       "version": "2.0.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "CMSIS",
-	       "version": "5.7.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "arduinoSTM32load",
-	       "version": "2.3.0"
-	     },
-	     {
-	       "packager": "smartme.IO",
-	       "name": "dfu-util",
-	       "version": "0.9.0-arancino5"
-	     }
-	   ]
+	},
+	{
+      	  "name": "Arancino STM32 Boards",
+	  "architecture": "stm32",
+      	  "version": "1.0.0-test.4",
+      	  "category": "Contributed",
+      	  "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.4/smartmeio-arancino-stm32-1.0.0-test.4.tar.bz2",
+          "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.4.tar.bz2",
+      	  "checksum": "SHA-256:48757632092f8eb627752f01a301b1ba7d0c9d64d8ab57319eaec8453cc116b4",
+      	  "size": "38576886",
+      	  "boards": [
+      	    {
+      	      "name": "Arancino V"
+      	    }
+      	   ],
+      	   "toolsDependencies": [
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "xpack-arm-none-eabi-gcc",
+      	       "version": "9.3.1-1.3"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "STM32Tools",
+      	       "version": "2.0.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "CMSIS",
+      	       "version": "5.7.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "arduinoSTM32load",
+      	       "version": "2.3.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "dfu-util",
+      	       "version": "0.9.0-arancino5"
+      	     }
+      	   ]
+         },
+      	 {
+      	   "name": "Arancino STM32 Boards",
+      	   "architecture": "stm32",
+      	   "version": "1.0.0-test.5",
+      	   "category": "Contributed",
+      	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.5/smartmeio-arancino-stm32-1.0.0-test.5.tar.bz2",
+      	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.5.tar.bz2",
+      	   "checksum": "SHA-256:7d1135f3ed9f3d9aaca57a03329ab1eef40d3942fc41e470d0a51413d92aa16e",
+      	   "size": "38581720",
+      	   "boards": [
+      	     {
+      	       "name": "Arancino V"
+      	     }
+      	   ],
+      	   "toolsDependencies": [
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "xpack-arm-none-eabi-gcc",
+      	       "version": "9.3.1-1.3"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "STM32Tools",
+      	       "version": "2.0.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "CMSIS",
+      	       "version": "5.7.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "arduinoSTM32load",
+      	       "version": "2.3.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "dfu-util",
+      	       "version": "0.9.0-arancino5"
+      	     }
+      	   ]
+         },
+      	 {
+      	   "name": "Arancino STM32 Boards",
+      	   "architecture": "stm32",
+      	   "version": "1.0.0-test.6",
+      	   "category": "Contributed",
+      	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.6/smartmeio-arancino-stm32-1.0.0-test.6.tar.bz2",
+      	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.6.tar.bz2",
+      	   "checksum": "SHA-256:bb04a2ff3e17cfce7101efafb07bb499b5a47ae963e69f2d4ce921d6017489fd",
+      	   "size": "38583887",
+      	   "boards": [
+      	     {
+      	       "name": "Arancino V"
+      	     }
+      	   ],
+      	   "toolsDependencies": [
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "xpack-arm-none-eabi-gcc",
+      	       "version": "9.3.1-1.3"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "STM32Tools",
+      	       "version": "2.0.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "CMSIS",
+      	       "version": "5.7.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "arduinoSTM32load",
+      	       "version": "2.3.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "dfu-util",
+      	       "version": "0.9.0-arancino5"
+      	     }
+      	   ]
+         },
+      	 {
+      	   "name": "Arancino STM32 Boards",
+      	   "architecture": "stm32",
+      	   "version": "1.0.0-test.7",
+      	   "category": "Contributed",
+      	   "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-stm32-snapshot/1.0.0-test.7/smartmeio-arancino-stm32-1.0.0-test.7.tar.bz2",
+      	   "archiveFileName": "smartmeio-arancino-stm32-1.0.0-test.7.tar.bz2",
+      	   "checksum": "SHA-256:1e70bc3f53c0070e73278c79e5d00a568be74ad02a1a701bbe5c3e28f4aa7fcc",
+      	   "size": "38582110",
+      	   "boards": [
+      	     {
+      	       "name": "Arancino V"
+      	     }
+      	   ],
+      	   "toolsDependencies": [
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "xpack-arm-none-eabi-gcc",
+      	       "version": "9.3.1-1.3"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "STM32Tools",
+      	       "version": "2.0.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "CMSIS",
+      	       "version": "5.7.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "arduinoSTM32load",
+      	       "version": "2.3.0"
+      	     },
+      	     {
+      	       "packager": "smartme.IO",
+      	       "name": "dfu-util",
+      	       "version": "0.9.0-arancino5"
+      	     }
+      	   ]
         },
         {
           "name": "Arancino STM32 Boards",
@@ -1927,6 +1976,281 @@
         }
       ],
       "tools": [
+        {
+           "version": "1.4.0-c-0196c06",
+           "name": "pqt-openocd",
+           "systems": [
+              {
+                 "checksum": "SHA-256:8da4fd922fd7392e87c0057b193e67962606cd13450af935c9846992f2bce916",
+                 "size": "5607131",
+                 "archiveFileName": "aarch64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                 "host": "aarch64-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:ce7650961c8200fe2cc2d4a88efc952fe1bb7b4175f2cf650a9a7d992ae08298",
+                 "size": "5344149",
+                 "archiveFileName": "arm-linux-gnueabihf.openocd-e3428fadb.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.openocd-e3428fadb.220714.tar.gz",
+                 "host": "arm-linux-gnueabihf"
+              },
+              {
+                 "checksum": "SHA-256:9391ae74c6474f685f45ccefb82e18f382f1a59f3e13e2b22fe00967264d2482",
+                 "size": "5168334",
+                 "archiveFileName": "i686-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                 "host": "i686-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:f4b7803527a0a587fe95e52bcf056fcbe58d64b78705edd38810655d3abee1fe",
+                 "size": "2156831",
+                 "archiveFileName": "i686-w64-mingw32.openocd-e3428fadb.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.openocd-e3428fadb.220714.zip",
+                 "host": "i686-mingw32"
+              },
+              {
+                 "checksum": "SHA-256:4e6a8da43758941478e6740e023ea5be051f09bf92e49d65c2b54a1ca4a2660c",
+                 "size": "2002508",
+                 "archiveFileName": "x86_64-apple-darwin14.openocd-e3428fadb.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.openocd-e3428fadb.220714.tar.gz",
+                 "host": "x86_64-apple-darwin"
+              },
+              {
+                 "checksum": "SHA-256:2518c6451c0e4c148c8c6cb9330e216075177003b064c509b168f42a44a6eb5a",
+                 "size": "5540574",
+                 "archiveFileName": "x86_64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                 "host": "x86_64-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:c2da993d74152ec8ca80b350ede77ee94942518081a48dafd7a3b49631778e75",
+                 "size": "2156831",
+                 "archiveFileName": "x86_64-w64-mingw32.openocd-e3428fadb.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.openocd-e3428fadb.220714.zip",
+                 "host": "x86_64-mingw32"
+              }
+           ]
+        },
+        {
+           "version": "1.4.0-c-0196c06",
+           "name": "pqt-gcc",
+           "systems": [
+              {
+                 "checksum": "SHA-256:0bc906c2eb4b3999285ea8a71ec0c95a20a21f2ff46b1bdd264f2fd3c30fe580",
+                 "size": "77889379",
+                 "archiveFileName": "aarch64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                 "host": "aarch64-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:2bf9f691d1fa97cea3b835a364fc24d06102181725001a00fe3e77526f90e2bd",
+                 "size": "73342377",
+                 "archiveFileName": "arm-linux-gnueabihf.arm-none-eabi-0196c06.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.arm-none-eabi-0196c06.220714.tar.gz",
+                 "host": "arm-linux-gnueabihf"
+              },
+              {
+                 "checksum": "SHA-256:e0fe347f2602247ffbc16bb7b74653fdb78c4f75b90037f2e82fc5498b5d1cb9",
+                 "size": "79511866",
+                 "archiveFileName": "i686-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                 "host": "i686-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:d1ee0f00c97dc50dc06487d6fb6b5dd94bbb3cf1579c975bcd23d7a7922e53b7",
+                 "size": "82626868",
+                 "archiveFileName": "i686-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                 "host": "i686-mingw32"
+              },
+              {
+                 "checksum": "SHA-256:1b030451a5a6ddf42ac796c46b2f077f90f6d56586f4537a3486ce47670996cd",
+                 "size": "82119254",
+                 "archiveFileName": "x86_64-apple-darwin14.arm-none-eabi-0196c06.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.arm-none-eabi-0196c06.220714.tar.gz",
+                 "host": "x86_64-apple-darwin"
+              },
+              {
+                 "checksum": "SHA-256:73d032ba42d33f6e9c1d5de79b73bf5e9740b8e6b7fee37de3db03814c553694",
+                 "size": "80363125",
+                 "archiveFileName": "x86_64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                 "host": "x86_64-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:3f67e15adbe49ebaee72734e9d469bd6b34fd1be30ccdb6e55a1e05a0be4e1db",
+                 "size": "86064664",
+                 "archiveFileName": "x86_64-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                 "host": "x86_64-mingw32"
+              }
+           ]
+        },
+        {
+           "version": "1.4.0-c-0196c06",
+           "name": "pqt-elf2uf2",
+           "systems": [
+              {
+                 "checksum": "SHA-256:14d7c1be08151bcddcc19fdb5741bf52b435f08f52daff2d498a07c5ebfb5bfb",
+                 "size": "82682",
+                 "archiveFileName": "aarch64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                 "host": "aarch64-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:31b790b5a19bbb5950212098aa42be43702fb4db50aa541c9f40b2320e2280be",
+                 "size": "55991",
+                 "archiveFileName": "arm-linux-gnueabihf.elf2uf2-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.elf2uf2-2e6142b.220714.tar.gz",
+                 "host": "arm-linux-gnueabihf"
+              },
+              {
+                 "checksum": "SHA-256:a3dd93861857fd81f8c9ed01509a0af012f446f23f405bc696f6a4d2f344262c",
+                 "size": "91386",
+                 "archiveFileName": "i686-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                 "host": "i686-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:25d6a934643074590c3006468ec051f62d02298abbff27d7e3643ee147e818e0",
+                 "size": "71949",
+                 "archiveFileName": "i686-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                 "host": "i686-mingw32"
+              },
+              {
+                 "checksum": "SHA-256:f2743d086d1992599d656aaa9a38a736d443bdc96619fd5bcabdc7fcb05225c8",
+                 "size": "86600",
+                 "archiveFileName": "x86_64-apple-darwin14.elf2uf2-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.elf2uf2-2e6142b.220714.tar.gz",
+                 "host": "x86_64-apple-darwin"
+              },
+              {
+                 "checksum": "SHA-256:5b0e79bfd9d7e5f4d5e5cb0e6e2b685e10fdf3071139c00bf6274a5ca9b9717e",
+                 "size": "82339",
+                 "archiveFileName": "x86_64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                 "host": "x86_64-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:f09e022cbb1fe73315ccf16a2af6bc687b64d0c44066f801fb9dee8326e941b1",
+                 "size": "80399",
+                 "archiveFileName": "x86_64-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                 "host": "x86_64-mingw32"
+              }
+           ]
+        },
+        {
+           "version": "1.4.0-c-0196c06",
+           "name": "pqt-pioasm",
+           "systems": [
+              {
+                 "checksum": "SHA-256:d4ac4b39841984178babd75f5c09cad87e06bd2fb18cf04e40f561d72e604a5d",
+                 "size": "453440",
+                 "archiveFileName": "aarch64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                 "host": "aarch64-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:568ebdd7b1a47c6dbf45793f9bf019855a1b14182fbeb7ed7e342979c6632eef",
+                 "size": "360675",
+                 "archiveFileName": "arm-linux-gnueabihf.pioasm-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.pioasm-2e6142b.220714.tar.gz",
+                 "host": "arm-linux-gnueabihf"
+              },
+              {
+                 "checksum": "SHA-256:2abac2bef690f7ffadfcf74af4832bfcc0e212606efbed21b385bda0517554ef",
+                 "size": "511442",
+                 "archiveFileName": "i686-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                 "host": "i686-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:0b1336b999a31d164248248d37fa550aa14a06dae8ef5b215818c5f0597ca80b",
+                 "size": "385882",
+                 "archiveFileName": "i686-w64-mingw32.pioasm-2e6142b.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.pioasm-2e6142b.220714.zip",
+                 "host": "i686-mingw32"
+              },
+              {
+                 "checksum": "SHA-256:7057ba222a54ff9bd43a6a4232a6355100f29e0cc20d3facb5d600180f418e68",
+                 "size": "480538",
+                 "archiveFileName": "x86_64-apple-darwin14.pioasm-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.pioasm-2e6142b.220714.tar.gz",
+                 "host": "x86_64-apple-darwin"
+              },
+              {
+                 "checksum": "SHA-256:30b367e8d2cd4ccdf151e728b4137bad1d993c42f0d640307e27d5fc55fce2c0",
+                 "size": "458691",
+                 "archiveFileName": "x86_64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                 "host": "x86_64-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:b7b340862e673f9e57287f02219b2d56094a497fe9d8c451acf28aaef721e038",
+                 "size": "409101",
+                 "archiveFileName": "x86_64-w64-mingw32.pioasm-2e6142b.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.pioasm-2e6142b.220714.zip",
+                 "host": "x86_64-mingw32"
+              }
+           ]
+        },
+        {
+           "version": "1.4.0-c-0196c06",
+           "name": "pqt-mklittlefs",
+           "systems": [
+              {
+                 "checksum": "SHA-256:ad0af70d568e10a9a2a74c6e0a3cf8659a47b80fbf594b01731579bc21a5c212",
+                 "size": "47287",
+                 "archiveFileName": "aarch64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                 "host": "aarch64-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:f8f1a1dd7b02220f11cf0f6a6c88692f7e056eb245fbc41017c33d333751980e",
+                 "size": "40826",
+                 "archiveFileName": "arm-linux-gnueabihf.mklittlefs-affa497.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.mklittlefs-affa497.220714.tar.gz",
+                 "host": "arm-linux-gnueabihf"
+              },
+              {
+                 "checksum": "SHA-256:4d10a2bc6a8fa41a7e5642aa30128f797f84b099e1bb2282c6c2d62a06e81e21",
+                 "size": "50925",
+                 "archiveFileName": "i686-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                 "host": "i686-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:71117412351ea2486848848d76f4d1e3c7a507a4d7546f6b0646bbc10c96d557",
+                 "size": "334062",
+                 "archiveFileName": "i686-w64-mingw32.mklittlefs-affa497.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.mklittlefs-affa497.220714.zip",
+                 "host": "i686-mingw32"
+              },
+              {
+                 "checksum": "SHA-256:b3d0c30f942982337cd4c0e4f70855f8eabcf1d378eac78465c7fee39ab5915f",
+                 "size": "365780",
+                 "archiveFileName": "x86_64-apple-darwin14.mklittlefs-affa497.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.mklittlefs-affa497.220714.tar.gz",
+                 "host": "x86_64-apple-darwin"
+              },
+              {
+                 "checksum": "SHA-256:9241e8e642748048bd32c7ccf4a8200e8bc104d6e328fe7437e8727866f29d94",
+                 "size": "49787",
+                 "archiveFileName": "x86_64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                 "host": "x86_64-pc-linux-gnu"
+              },
+              {
+                 "checksum": "SHA-256:2f39dd727e9cb61dbc631d00f543a99b6224fb24ffde0dff0cb2b70c9561ae69",
+                 "size": "347612",
+                 "archiveFileName": "x86_64-w64-mingw32.mklittlefs-affa497.220714.zip",
+                 "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.mklittlefs-affa497.220714.zip",
+                 "host": "x86_64-mingw32"
+              }
+           ]
+        },
         {
           "version": "1.3.1-a-7855b0c",
           "name": "pqt-openocd",
