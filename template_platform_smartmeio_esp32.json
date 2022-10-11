@@ -1,1 +1,23 @@
 
+{
+    "name": "Arancino ESP32 Boards",
+    "architecture": "esp32",
+    "version": "%%VERSION%%",
+    "category": "Contributed",
+    "url": "http://download.smartme.io/artifactory/%%URL%%/%%VERSION%%/smartmeio-arancino-esp32-%%VERSION%%.tar.bz2",
+    "archiveFileName": "smartmeio-arancino-esp32-%%VERSION%%.tar.bz2",
+    "checksum": "SHA-256:%%SHA256%%",
+    "size": "%%SIZE%%",
+    "boards": [
+        {
+            "name": ""
+        }
+    ],
+    "toolsDependencies": [
+        {
+            "packager": "",
+            "name": "",
+            "version": ""
+        }
+    ]
+}

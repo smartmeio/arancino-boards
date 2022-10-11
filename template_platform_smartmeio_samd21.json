@@ -1,0 +1,41 @@
+{
+  "name": "Arancino SAMD Boards",
+  "architecture": "samd",
+  "version": "%%VERSION%%",
+  "category": "Contributed",
+  "url": "http://download.smartme.io/artifactory/%%URL%%/%%VERSION%%/smartmeio-arancino-%%VERSION%%.tar.bz2",
+  "archiveFileName": "smartmeio-arancino-%%VERSION%%.tar.bz2",
+  "checksum": "SHA-256:%%SHA256%%",
+  "size": "%%SIZE%%",
+  "boards": [
+    {"name": "Arancino"},
+    {"name": "Arancino Mignon"}
+  ],
+  "toolsDependencies": [
+    {
+      "packager": "arduino",
+      "name": "arm-none-eabi-gcc",
+      "version": "7-2017q4"
+    },
+    {
+      "packager": "arduino",
+      "name": "bossac",
+      "version": "1.7.0-arduino3"
+    },
+    {
+      "packager": "arduino",
+      "name": "openocd",
+      "version": "0.10.0-arduino7"
+    },
+    {
+      "packager": "arduino",
+      "name": "CMSIS",
+      "version": "4.5.0"
+    },
+    {
+      "packager": "arduino",
+      "name": "CMSIS-Atmel",
+      "version": "1.2.0"
+    }
+  ]
+}
