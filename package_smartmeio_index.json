@@ -1256,6 +1256,43 @@
                     ]
                 },
                 {
+                    "name": "Arancino nRF52 Boards",
+                    "architecture": "nrf52",
+                    "version": "1.1.1-test.3",
+                    "category": "Contributed",
+                    "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-nrf52-snapshot/1.1.1-test.3/smartmeio-arancino-nrf52-1.1.1-test.3.tar.bz2",
+                    "archiveFileName": "smartmeio-arancino-nrf52-1.1.1-test.3.tar.bz2",
+                    "checksum": "SHA-256:56a39ff587c6362bdbd96f8b32b70169d3089d44ec907bc3c01aa081e9e60d35",
+                    "size": "6146113",
+                    "boards": [
+                        {
+                            "name": "Arancino Volante"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "smartme.IO",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "9-2019q4"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "nrfjprog",
+                            "version": "9.4.0"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "nrfutil",
+                            "version": "0.5.3.post17"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "CMSIS",
+                            "version": "5.7.0"
+                        }
+                    ]
+                },
+                {
                     "name": "Arancino RP2040 Boards",
                     "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040-snapshot/1.0.0-test.5/smartmeio-arancino-rp2040-1.0.0-test.5.tar.bz2",
                     "version": "1.0.0-test.5",
