@@ -795,6 +795,51 @@
                     ]
                 },
                 {
+                    "name": "Arancino SAMD Boards",
+                    "architecture": "samd",
+                    "version": "1.3.2-test.11",
+                    "category": "Contributed",
+                    "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-snapshot/1.3.2-test.11/smartmeio-arancino-1.3.2-test.11.tar.bz2",
+                    "archiveFileName": "smartmeio-arancino-1.3.2-test.11.tar.bz2",
+                    "checksum": "SHA-256:6526fc4aea1bb2280b98685512ec96253ccb98e4f5c92835fd40697f5e26a000",
+                    "size": "1889528",
+                    "boards": [
+                        {
+                            "name": "Arancino"
+                        },
+                        {
+                            "name": "Arancino Mignon"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-arduino3"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.2.0"
+                        }
+                    ]
+                },
+                {
                     "name": "Arancino nRF52 Boards",
                     "architecture": "nrf52",
                     "version": "1.0.0-test.1",
