@@ -2591,6 +2591,58 @@
                             "version": "3.0.0-gnu12-dc7f933"
                         }
                     ]
+                },
+                {
+                    "name": "Arancino ESP32 Boards",
+                    "architecture": "esp32",
+                    "version": "1.0.0-test.6",
+                    "category": "Contributed",
+                    "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-esp32-snapshot/1.0.0-test.6/smartmeio-arancino-esp32-1.0.0-test.6.tar.bz2",
+                    "archiveFileName": "smartmeio-arancino-esp32-1.0.0-test.6.tar.bz2",
+                    "checksum": "SHA-256:f9542c0b95a167f44abba86e264c2bf83c2dff878a92de2eb35326caf5564d97",
+                    "size": "248338594",
+                    "boards": [
+                        {
+                            "name": "dfr_adapter"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "smartme.IO",
+                            "name": "riscv32-esp-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "xtensa-esp32-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "xtensa-esp32s2-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "xtensa-esp32s3-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "esptool_py",
+                            "version": "4.2.1"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "mkspiffs",
+                            "version": "0.2.3"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "mklittlefs",
+                            "version": "3.0.0-gnu12-dc7f933"
+                        }
+                    ]
                 }
             ],
             "tools": [
