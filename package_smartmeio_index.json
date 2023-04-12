@@ -2609,22 +2609,7 @@
                     "toolsDependencies": [
                         {
                             "packager": "smartme.IO",
-                            "name": "riscv32-esp-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
-                        },
-                        {
-                            "packager": "smartme.IO",
                             "name": "xtensa-esp32-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
-                        },
-                        {
-                            "packager": "smartme.IO",
-                            "name": "xtensa-esp32s2-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
-                        },
-                        {
-                            "packager": "smartme.IO",
-                            "name": "xtensa-esp32s3-elf-gcc",
                             "version": "gcc8_4_0-esp-2021r2-patch3"
                         },
                         {
