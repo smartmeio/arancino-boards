@@ -890,6 +890,56 @@
                     ]
                 },
                 {
+                    "name": "Arancino SAMD Boards",
+                    "architecture": "samd",
+                    "version": "1.4.0",
+                    "category": "Contributed",
+                    "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform/1.4.0/smartmeio-arancino-1.4.0.tar.bz2",
+                    "archiveFileName": "smartmeio-arancino-1.4.0.tar.bz2",
+                    "checksum": "SHA-256:6773e878b709d22c668c07c37146ec8a2a135197d561083688df653f58e3f6d0",
+                    "size": "1890286",
+                    "boards": [
+                        {
+                            "name": "Arancino"
+                        },
+                        {
+                            "name": "Arancino Mignon"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-arduino3"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.2.0"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "name": "ArancinoOTA",
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
                     "name": "Arancino nRF52 Boards",
                     "architecture": "nrf52",
                     "version": "1.0.0-test.1",
