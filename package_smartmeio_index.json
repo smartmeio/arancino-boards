@@ -2063,6 +2063,55 @@
                     }
                 },
                 {
+                    "name": "Arancino RP2040 Boards",
+                    "url": "http://download.smartme.io/artifactory/smartmeio-arancino-platform-rp2040/1.2.1/smartmeio-arancino-rp2040-1.2.1.tar.bz2",
+                    "version": "1.2.1",
+                    "architecture": "rp2040",
+                    "archiveFileName": "smartmeio-arancino-rp2040-1.2.1.tar.bz2",
+                    "size": "12374444",
+                    "checksum": "SHA-256:e981bd3dfc68345865371ad797887c49859e6927f6e9e75c3f05207ccce5ddbf",
+                    "boards": [
+                        {
+                            "name": "Arancino Pico"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "smartme.IO",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-gcc"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-mklittlefs"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-elf2uf2"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-pioasm"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "version": "1.0.1-base-3a57aed",
+                            "name": "pqt-python3"
+                        },
+                        {
+                            "packager": "smartme.IO",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-openocd"
+                        }
+                    ],
+                    "help": {
+                        "online": ""
+                    }
+                },
+                {
                     "name": "Arancino STM32 Boards",
                     "architecture": "stm32",
                     "version": "1.0.0",
