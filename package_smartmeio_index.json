@@ -963,7 +963,7 @@
                             "host": "i386-apple-darwin",
                             "url": "https://download.smartme.io/artifactory/arancino-ota-tool/1.0.10/ArancinoOTA-1.0.10-osx.tar.gz",
                             "archiveFileName": "ArancinoOTA-1.0.10-osx.tar.gz",
-                            "size": "1108846546",
+                            "size": "108846546",
                             "checksum": "SHA-256:ced415fa0bc5976f8dca29398fb0efe4ddbbdb3764779968c125192352064de3"
                         },
                         {
